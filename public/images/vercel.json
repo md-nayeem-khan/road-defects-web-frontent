@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/predict",
+        "destination": "http://18.175.168.56/api/predict/"
+      }
+    ]
+  }
+  

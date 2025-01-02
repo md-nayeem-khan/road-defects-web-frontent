@@ -54,7 +54,7 @@ const Classifier = () => {
     formData.append('image', files[0], files[0].name);
 
     axios
-      .post('http://18.175.168.56/api/predict/', formData, {
+      .post('/api/predict', formData, {
         headers: {
           accept: 'application/json',
           'content-type': 'multipart/form-data',
