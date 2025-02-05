@@ -52,7 +52,7 @@ const Footer = () => {
                         variant='body2'
                         color={theme.palette.text.secondary}
                       >
-                        Developed by : Tasmia & Nayeem
+                        Developed by : Tasmia Azim
                       </Typography>
                     }
                   />
